@@ -49,7 +49,7 @@ public class CountDown : MonoBehaviour
      {
       timeText.text = "";
       successpanel.SetActive(true);
-    }
+    } */
 
     
 }
