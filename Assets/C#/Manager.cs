@@ -47,9 +47,10 @@ public class Manager : MonoBehaviour
     public void DropNecklace()
     {
         float Distance = Vector3.Distance(necklace.transform.position, necklacePosition.transform.position);
-        if(Distance < 20)
+        if(Distance < 50)
         {
             necklace.transform.position = necklacePosition.transform.position;
+            //return true;
         }
         else
         {
@@ -61,9 +62,10 @@ public class Manager : MonoBehaviour
     public void DropHand()
     {
         float Distance = Vector3.Distance(hand.transform.position, handPosition.transform.position);
-        if (Distance < 20)
+        if (Distance < 50)
         {
             hand.transform.position = handPosition.transform.position;
+            //return true;
         }
         else
         {
@@ -75,9 +77,10 @@ public class Manager : MonoBehaviour
     public void DropLeg()
     {
         float Distance = Vector3.Distance(leg.transform.position, legPosition.transform.position);
-        if (Distance < 20)
+        if (Distance < 50)
         {
             leg.transform.position = legPosition.transform.position;
+            //return true;
         }
         else
         {
